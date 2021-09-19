@@ -1,0 +1,47 @@
+html{
+    font-family: 'Crimson Text', serif;
+    color:rgb(245, 245, 245); 
+}
+
+header{
+    line-height:1.3em;
+    margin-bottom: 7%;
+}
+
+h1{
+    font-size:45px;
+    color:rgba(245, 245, 245, 0.747); 
+    margin-bottom:-3%;
+}
+
+h2{
+   color:rgba(245, 245, 245, 0.897);
+}
+
+h3{
+    margin-bottom:-3%;
+    color:rgba(245, 245, 245, 0.493); 
+}
+
+h4{
+    font-size:100px;
+    margin-bottom: 3%;
+}
+body{
+    margin: 10%;
+    color:rgb(245, 245, 245);
+    margin-bottom:-3%;
+}
+
+p{
+    font-size:30px;
+}
+
+section{
+    margin: 2.5em 0;
+}
+
+
+
+
+
