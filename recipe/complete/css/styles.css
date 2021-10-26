@@ -1,0 +1,171 @@
+html{
+    font-family: 'PT Serif Caption', serif;
+    background-color: #f7ecf8e5;
+    color:#A9745F;
+}
+
+
+h1{
+    font-size:70px;
+    font-weight:lighter;
+    text-align:right;
+    padding-right:300px;
+    margin-bottom:-50px;
+    
+   
+}
+.first{
+    padding-top:30px;
+    margin-left: 190px;
+    margin-bottom: 20px;
+}
+
+
+.fruit{
+    float:left;
+    height:550px;
+    width:550px;
+    padding: 150px;
+    position:absolute;
+    padding-left: -40px;
+    padding-top:40px;
+    
+
+}
+
+.green{
+    float:right;
+    height:550px;
+    width:550px;
+    padding: 790px;
+    position:absolute;
+    padding-right: -300px;
+    padding-top:460px;
+   
+    
+}
+
+
+h4{
+    font-weight:lighter;
+    margin-left: 150px;
+}
+
+h3{
+    
+    font-size:13px;
+    text-align:30px;
+    float: left;
+    padding: 100px;
+    
+}
+h2{
+    font-size:35px;
+    font-weight:lighter;
+    font-style:italic; 
+    margin-left: 150px;
+
+}
+
+a{
+   
+    font-size:15px;
+    font-weight:1px;
+    margin-left: 150px;
+}
+
+h5{
+    font-weight:lighter;
+    font-style:italic;
+    text-orientation: mixed;
+    transform: rotate(-90deg) ;
+    font-size:20px;
+    margin-left: -1500px;
+    
+   
+
+}
+
+h6{
+    font-weight:lighter;
+    font-style:italic;
+    text-orientation: mixed;
+    transform: rotate(-90deg) ;
+    font-size:20px;
+    margin-left: -1500px;
+    margin-top: 200px;
+    
+    
+}
+
+
+ b{
+    font-weight:lighter;
+    font-style:italic;
+    text-orientation: mixed;
+    transform: rotate(-90deg) ;
+    font-size:20px;
+    margin-left: -1500px;
+    margin-top: 400px;
+
+} 
+
+.blackfruit{
+    padding-top: 1890px;
+    position: absolute;  
+    width:auto;
+}
+
+
+.next{
+    padding-top:2400px;
+    margin-left: 190px;
+    margin-left:400px;
+}
+c{
+    font-size:40px;
+    padding-bottom: -40px;
+}
+
+
+
+e{
+    font-size:40px;
+    padding-bottom: -40px;
+} 
+
+.before{
+    padding-top:-1500px;
+    margin-left:400px;
+
+}
+
+g{
+    font-size:40px;
+}
+
+h{
+    font-size:20px;
+}
+
+j{
+    font-size:40px;
+}
+l{
+    font-size:40px;
+}
+
+.last{
+    position: absolute;
+    top:101.5rem;
+    right:20rem;
+    
+    /* padding-top:-1400px;
+    margin-left:600px; */
+}
+
+q{
+padding-top:20px;
+font-size:12px;
+margin-left:400px
+}
