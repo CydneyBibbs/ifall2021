@@ -1,0 +1,482 @@
+html{
+    background-color: #F7F4F0;
+    /* font-family: 'Noto Serif Display', serif; */
+        margin:0;
+        padding:0;
+}
+
+h1{
+    color:#7A624C;
+    text-align:center;
+    font-size:70px;
+     position:absolute;
+     top: 40%;
+     bottom:30%;
+     margin-left: 450px;
+     font-weight:normal;
+}
+.first{
+    
+    color:#7A624C;
+    background-image: url(images/Photo1.jpg);
+    position:absolute;
+    width: 15%;
+    font-size:100%;
+    margin-left: 8%;
+}
+
+.first-one{
+    font-size: 60%;
+    color:#7A624C;
+    width: 15%;
+    font-size:13px;
+    margin-left: 80%;
+    margin: top 50px;
+    position:absolute;
+    left:-2%;
+    top:70%;
+  font-size:100%;
+}
+/* .circles img{
+    background-image: url(images/circles.png);
+    width:15%;
+} */
+
+.YSL_photo{
+    margin-top:10%;
+    float:none;
+    text-align:center;
+}
+
+#main-nav{
+    list-style: none;
+    font-weight: bold;
+  margin-bottom: 10px;
+  width: 40%;
+  text-align: center;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  font-size:130%;
+  font-weight: lighter;
+}
+
+#main-nav a{
+    text-decoration:none;
+    color:#997e64;
+    
+}
+nav#main-nav ul li {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+
+nav#main-nav ul li a{
+ display: inline-block;
+ list-style: none;
+}
+
+.second{
+padding: 60px;
+margin: 150px;
+color:rgb(226, 226, 226);
+background:#7A624C;
+border-width: 100%;
+width:1280px;
+height:300px;
+}
+
+.second d{
+    font-size:100%;
+    margin-left:3%;
+    font-size:120%;
+}
+
+.new_one{
+color:white;
+position:absolute;
+width: 30%;
+font-size:140%;
+margin-left:55%;
+margin-top:-27%;
+text-transform:uppercase;
+font-weight: 10%;
+}
+
+
+.last_photo{
+    background-image: url(images/Photo2.jpg);
+    position:absolute;
+    margin-left:14%;
+    margin-top:-25%;
+}
+
+
+/* EARLY LIFE PAGE */
+
+.early-photo img{
+    margin-top:5%;
+    margin-left:40%;
+    width:800px;
+    height:auto;
+    
+}
+
+.early-photo div{
+    position:absolute;
+    padding: 60px;
+margin: 150px;
+color:rgb(226, 226, 226);
+background:#7A624C;
+border-width: 100%;
+margin-left:15%;
+margin-top:21%;
+width:400px;
+height:200px;
+}
+
+.early-photo div li{
+    font-size:350%;
+    list-style: none;
+    margin-top:16%;
+    text-align: center;
+}
+
+.fourth{
+    margin-top:3%;
+    margin-left:9%;
+    width:25%;
+}
+.fourth div g{
+    color:#7A624C; 
+   
+}
+
+.fifth{
+    margin-top:5%;
+    margin-left:60%;
+    width:25%;
+}
+.fifth div g{
+    color:#7A624C; 
+    column-width: 20%;
+}
+
+.sketches img{
+ 
+    margin-top:-200%;
+    margin-left:-180%;
+    width:500px;
+    height:auto;
+}
+
+/* CARREER PAGEE */
+
+.sixth{
+    margin-top:5%;
+    margin-left:60%;
+    width:25%;
+}
+.sixth a{
+    color:#7A624C; 
+    column-width: 20%;
+}
+
+.jesus img{
+    margin-top:-60%;
+    margin-left:25%;
+    width:350px;
+    height:auto;
+    
+}
+
+/* LAST SECTION  */
+
+#poop{
+    list-style: none;
+    margin-left:15%;
+    margin-top: -1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    padding:0;
+}
+
+.caption {
+    
+    width: 100%;
+    height: 100%;
+}
+
+#poop img{
+    width:300px;
+    height: 300px;
+    padding-right:5px;
+    
+}
+
+#poop li {
+    position: relative;
+
+}
+
+#poop li:hover img{
+    opacity:35%;
+}
+
+#poops li:hover .caption {
+    display: flex;    
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.caption {
+   color:#7A624C;
+    font-size: 11pt;
+    font-weight: 600;
+    
+    text-align:center;
+}
+
+
+.death img{
+    margin-top:5%;
+    margin-left:40%;
+    width:700px;
+    height:auto;
+    
+}
+
+.death div{
+    position:absolute;
+    padding: 60px;
+margin: 150px;
+color:rgb(226, 226, 226);
+background:#7A624C;
+border-width: 100%;
+margin-left:15%;
+margin-top:21%;
+width:400px;
+height:100px;
+}
+
+.death div li{
+    font-size:350%;
+    list-style: none;
+    margin-top:7%;
+    text-align: center;
+}
+
+@media (max-width:925px) {
+
+h1{
+    font-size:50px;
+     margin-left: 40px;
+}
+.first{
+    width: 30%;
+    font-size:80%;  
+}
+.first-one{
+    width: 30%;
+    font-size:80%;  
+    margin-left:70%;
+    margin-top:-3%;
+}
+
+.second{
+    height:200px;
+    font-size:80%;
+    }
+
+        .new_one{
+           
+            margin-top:-70%;
+        }
+
+
+    .early-photo img{
+        width:300px;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  
+    }
+
+    
+ .last_photo{
+          
+            margin-left:4%;
+            margin-top:-35%;
+        }
+
+
+    .early-photo div li{
+        font-size:250%;
+    
+    }  
+
+    .sketches img{
+ 
+        margin-top:-200%;
+        margin-left:-180%;
+        width:300px;
+        height:auto;
+    }
+    .fourth{
+        
+        width:60%;
+        margin-top:30%;
+    }
+    .early-photo div{
+     
+    margin-left:15%;
+    margin-top:30%;
+    width:200px;
+    height:100px;
+    }
+
+.fifth{
+
+    margin-left:8.5%;
+    width:60%;
+}
+.sketches img{
+ 
+    margin-top:30%;
+    margin-left:20%;
+    width:300px;
+    height:auto;
+}
+
+.sixth{
+    margin-top:40%;
+    margin-left:20%;
+    width:60%;
+}
+
+
+.jesus img{
+    margin-top:10%;
+    margin-left:25%;
+    width:220 px;
+    height:auto;
+    
+}
+
+.death img{
+    margin-top:10%;
+    margin-left:20%;
+    width:300px;
+    height:auto;
+    
+}
+
+.death div{
+    
+margin-left:16%;
+margin-top:60%;
+width:200px;
+height:100px;
+}
+
+#poop img{
+    margin-top:60%;
+    width:300px;
+    height: 300px;
+    padding-right:9px;
+    margin-left:10%;
+
+    
+}
+
+#poop{
+   
+    width: 500px;
+    margin-top:20%;
+    padding-bottom:20%;
+  
+}
+
+
+ 
+}
+    @media (max-width:1100px) {
+        .new_one{
+            width: 60%;
+            font-size:80%;
+            margin-left:35%;
+            margin-top:-70%;
+        }
+    
+    }
+
+.mainnav{
+    background-color: #333;
+    overflow: hidden;
+  
+}
+
+.mainnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .mainnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .mainnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .mainnav .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .mainnav a:not(:first-child) {display: none;}
+    .mainnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .mainnav.responsive {position: relative;}
+    .mainnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .mainnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .death{
+        font-size: 13px;
+    }
+    .death img{
+        margin-top:30%;
+        margin-left:20%;
+       
+        
+    }
+    .mainnav a {
+        padding: 12px 14px;
+        font-size: 14.2px;
+      }
+  }
+

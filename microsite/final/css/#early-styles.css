@@ -1,0 +1,35 @@
+html{
+    background-color: #F7F4F0;
+    /* font-family: 'Noto Serif Display', serif; */
+        margin:0;
+        padding:0;
+}
+
+#main-nav{
+    list-style: none;
+    font-weight: bold;
+  margin-bottom: 10px;
+  width: 40%;
+  text-align: center;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  font-size:130%;
+  font-weight: lighter;
+}
+
+#main-nav a{
+    text-decoration:none;
+    color:#7A624C;
+    
+}
+nav#main-nav ul li {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+
+nav#main-nav ul li a{
+ display: inline-block;
+ list-style: none;
+}
